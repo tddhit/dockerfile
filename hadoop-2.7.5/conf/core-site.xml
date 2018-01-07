@@ -19,7 +19,7 @@
 <configuration>
     <property>
             <name>fs.defaultFS</name>
-            <value>hdfs://hadoop0:9000</value>
+            <value>hdfs://hadoop1:9000</value>
     </property>
     <property>
      <name>io.file.buffer.size</name>
@@ -27,6 +27,6 @@
    </property>
     <property>
             <name>hadoop.tmp.dir</name>
-            <value>file:/usr/local/hadoop/tmp</value>
+            <value>file:/data/hadoop/tmp</value>
     </property>
 </configuration>

@@ -19,7 +19,7 @@
 <configuration>
     <property>
       <name>dfs.namenode.secondary.http-address</name>
-      <value>hadoop0:9001</value>
+      <value>hadoop1:9001</value>
     </property>
     <property>
         <name>dfs.webhdfs.enabled</name>
@@ -31,10 +31,10 @@
     </property>
     <property>
       <name>dfs.namenode.name.dir</name>
-      <value>file:/usr/local/hadoop/dfs/name</value>
+      <value>file:/data/hadoop/dfs/name</value>
     </property>
     <property>
       <name>dfs.datanode.data.dir</name>
-      <value>file:/usr/local/hadoop/dfs/data</value>
+      <value>file:/data/hadoop/dfs/data</value>
     </property>
 </configuration>
